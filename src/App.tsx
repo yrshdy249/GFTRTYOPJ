@@ -1005,19 +1005,51 @@ object OverlayLockManager {
               </p>
 
               <div className="space-y-4">
-                <div className="bg-slate-950 border border-slate-800 rounded-xl p-4">
-                  <h4 className="font-bold text-xs text-teal-400 mb-1">الخيار 1: البناء التلقائي عبر GitHub Actions (بدون كمبيوتر)</h4>
-                  <p className="text-xs text-slate-400 leading-relaxed">
-                    بناءً على تعليماتك الصارمة: لم يتم لمس GitHub API حتى الآن ولن يُرفع الكود إلا إذا طلبت صراحة بقول كلمة <b>«تأكيد تأكيد»</b> مرتين.
-                    عند الرفع، سيقوم خادم GitHub السحابي المجاني ببناء الـ APK تلقائياً وتنزيله بضغطة زر على هاتفك.
+                <div className="bg-emerald-950/40 border border-emerald-500/30 rounded-xl p-4">
+                  <div className="flex items-center justify-between mb-2">
+                    <div className="flex items-center gap-2">
+                      <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping" />
+                      <h4 className="font-bold text-xs text-emerald-400">تم إنشاء المستودع وبدء بناء الـ APK بنجاح!</h4>
+                    </div>
+                    <span className="text-[10px] bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded font-mono">
+                      yrshdy249/GFTRTYOPJ
+                    </span>
+                  </div>
+                  <p className="text-xs text-slate-300 leading-relaxed mb-4">
+                    تم إنشاء مستودعك الجديد ورفع كافة ملفات مشروع Android 15 وملفات إعداد الـ APK تلقائياً. يقوم GitHub Actions حالياً بتجميع وبناء ملف الـ APK.
                   </p>
+                  
+                  <div className="flex flex-wrap gap-3">
+                    <a
+                      href="https://github.com/yrshdy249/GFTRTYOPJ/actions"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 bg-teal-500 text-slate-950 font-bold px-4 py-2 rounded-xl text-xs hover:bg-teal-400 transition-colors shadow-lg shadow-teal-500/20"
+                    >
+                      <span>متابعة بناء الـ APK وتحميله (GitHub Actions)</span>
+                      <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
+
+                    <a
+                      href="https://github.com/yrshdy249/GFTRTYOPJ"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 bg-slate-800 text-slate-200 border border-slate-700 px-4 py-2 rounded-xl text-xs hover:bg-slate-700 transition-colors"
+                    >
+                      <span>فتح المستودع على GitHub</span>
+                      <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
+                  </div>
                 </div>
 
                 <div className="bg-slate-950 border border-slate-800 rounded-xl p-4">
-                  <h4 className="font-bold text-xs text-teal-400 mb-1">الخيار 2: الفتح المباشر في Android Studio</h4>
-                  <p className="text-xs text-slate-400 leading-relaxed">
-                    إذا كان لديك جهاز كمبيوتر عليه Android Studio، يمكنك فتح مجلد <code>android</code> مباشرة ثم الضغط على <b>Build → Build APK</b> لتوليد ملف الـ APK وتثبيته عبر كابل USB.
-                  </p>
+                  <h4 className="font-bold text-xs text-teal-400 mb-1">خطوات تثبيت الـ APK على هاتف Realme C53:</h4>
+                  <ol className="text-xs text-slate-400 leading-relaxed space-y-2 mt-2 list-decimal list-inside">
+                    <li>افتح صفحة <b>GitHub Actions</b> أعلاه من متصفح الهاتف أو الكمبيوتر.</li>
+                    <li>اضغط على البناء المكتمل الأخير <b>(Build Personal AppLock APK)</b>.</li>
+                    <li>في أسفل الصفحة تحت قسم <b>Artifacts</b>، اضغط على <b>AppLock-Personal-RealmeC53-APK</b> لتحميله.</li>
+                    <li>قم بفك ضغط الملف وتثبيت الـ APK على هاتفك، ثم اتبع دليل الضبط في تبويب <b>«دليل ضبط Realme C53»</b> لتفعيل الحماية.</li>
+                  </ol>
                 </div>
               </div>
             </div>
