@@ -1021,22 +1021,30 @@ object OverlayLockManager {
                   
                   <div className="flex flex-wrap gap-3">
                     <a
-                      href="https://github.com/yrshdy249/GFTRTYOPJ/actions"
+                      href="https://github.com/yrshdy249/GFTRTYOPJ/releases/download/v1.0.0/AppLock-RealmeC53.apk"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 bg-teal-500 text-slate-950 font-bold px-4 py-2 rounded-xl text-xs hover:bg-teal-400 transition-colors shadow-lg shadow-teal-500/20"
+                      className="inline-flex items-center gap-2 bg-gradient-to-r from-emerald-400 to-teal-400 text-slate-950 font-bold px-5 py-2.5 rounded-xl text-xs hover:brightness-110 transition-all shadow-lg shadow-teal-500/25 cursor-pointer"
                     >
-                      <span>متابعة بناء الـ APK وتحميله (GitHub Actions)</span>
-                      <ExternalLink className="w-3.5 h-3.5" />
+                      <CheckCircle2 className="w-4 h-4 text-slate-950" />
+                      <span>تحميل ملف الـ APK المباشر لهاتفك الآن (Release v1.0.0)</span>
                     </a>
 
                     <a
-                      href="https://github.com/yrshdy249/GFTRTYOPJ"
+                      href="/apk/AppLock-RealmeC53.apk"
+                      download="AppLock-RealmeC53.apk"
+                      className="inline-flex items-center gap-2 bg-slate-800 text-slate-200 border border-slate-700 px-4 py-2.5 rounded-xl text-xs hover:bg-slate-700 transition-colors"
+                    >
+                      <span>تنزيل محلي مباشر من الاستوديو</span>
+                    </a>
+
+                    <a
+                      href="https://github.com/yrshdy249/GFTRTYOPJ/releases/tag/v1.0.0"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 bg-slate-800 text-slate-200 border border-slate-700 px-4 py-2 rounded-xl text-xs hover:bg-slate-700 transition-colors"
+                      className="inline-flex items-center gap-2 bg-slate-800 text-teal-300 border border-teal-500/40 px-4 py-2.5 rounded-xl text-xs hover:bg-slate-700 transition-colors"
                     >
-                      <span>فتح المستودع على GitHub</span>
+                      <span>صفحة الإصدار (Releases)</span>
                       <ExternalLink className="w-3.5 h-3.5" />
                     </a>
                   </div>
