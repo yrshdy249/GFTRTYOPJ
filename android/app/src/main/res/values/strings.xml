@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">قفل تطبيقاتي</string>
+    <string name="accessibility_service_description">تُستخدم هذه الخدمة حصرياً لرصد فتح التطبيقات المحمية بالبصمة فورياً وبدون استهلاك للبطارية، ولن تقوم بجمع أي بيانات أو قراءة أي محتوى شخصي نهائياً.</string>
+    
+    <!-- Status & Titles -->
+    <string name="protection_status_active">الحماية نشطة وفعالة</string>
+    <string name="protection_status_inactive">الحماية غير مفعلة - تنقص صلاحيات</string>
+    <string name="protected_apps_count">التطبيقات المحمية: %1$d</string>
+    <string name="search_apps_hint">ابحث عن تطبيق...</string>
+    
+    <!-- Permissions -->
+    <string name="perm_accessibility_title">خدمة إمكانية الوصول (أساسية)</string>
+    <string name="perm_accessibility_desc">لرصد تشغيل التطبيقات المحمية لحظياً بدون فحص متكرر أو استنزاف للبطارية.</string>
+    <string name="perm_overlay_title">الظهور فوق التطبيقات (درع الحماية)</string>
+    <string name="perm_overlay_desc">لحجب محتوى التطبيق المحمي فورياً ومنع استراق النظر قبل تأكيد البصمة.</string>
+    <string name="perm_battery_title">استثناء توفير البطارية</string>
+    <string name="perm_battery_desc">لضمان عدم إيقاف الحماية بواسطة نظام إدارة الطاقة في Realme UI.</string>
+    <string name="perm_grant_button">منح الصلاحية</string>
+    <string name="perm_granted">مُفعّلة بنجاح</string>
+
+    <!-- Realme Restricted Settings Guide -->
+    <string name="realme_restricted_title">تنبيه لمستخدمي Realme C53 (Android 15)</string>
+    <string name="realme_restricted_desc">إذا ظهرت خدمة إمكانية الوصول باللون الرمادي، يرجى فتح: معلومات التطبيق -> القائمة العلوية (3 نقاط) -> السماح بالإعدادات المقيدة (Allow Restricted Settings).</string>
+
+    <!-- Biometric Screen -->
+    <string name="biometric_prompt_title">تأكيد بصمة الإصبع</string>
+    <string name="biometric_prompt_subtitle">تطبيق محمي بواسطة «قفل تطبيقاتي»</string>
+    <string name="biometric_prompt_cancel">رجوع للرئيسية</string>
+    <string name="biometric_auth_failed">البصمة غير مطابقة، يرجى المحاولة مرة أخرى</string>
+    <string name="biometric_not_enrolled">لا توجد بصمات مسجلة في الهاتف، يرجى تسجيل بصمة من إعدادات النظام</string>
+
+    <!-- Foreground Service Notification -->
+    <string name="notification_channel_name">خدمة الحماية الدائمة</string>
+    <string name="notification_title">حماية التطبيقات قيد التشغيل</string>
+    <string name="notification_text">تطبيق «قفل تطبيقاتي» يحمي تطبيقاتك المحددة حالياً.</string>
+</resources>

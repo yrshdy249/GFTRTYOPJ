@@ -1,0 +1,6 @@
+{
+  "name": "قفل تطبيقاتي - App Lock",
+  "description": "تطبيق حماية وقفل التطبيقات بالبصمة لنظام Android 15 وهاتف Realme C53 بإدارة جلسات مستقلة",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
